@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+body{
+    background: linear-gradient(to top, black,  rgb(36, 15, 1), black);
+}
+nav{
+   
+    
+}
+nav .nav-logo{
+    margin-left: 150px;
+}
+nav .nav-item{
+   font-size: 16px;
+   margin-left: 88px;
+   color: #FFF;
+}
+nav .nav-item .nav-link{
+    color: #FFF;
+}
+nav .nav-button button{
+    font-size: 14px;
+    color: #FFF;
+    background-color: #FA9021;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 28px;
+    margin-left: 64px;
+    margin-right: 150px;
+}
+nav .nav-button button a{
+    text-decoration: none;
+    color: white;
+}
+nav .nav-button button:hover{
+    background-color: #FFF;
+    color: #111;
+    transition: all ease-in 0.5s;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color:#FA9021;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translatex(-50%);
+    transition: .5s ease;
+}
+nav .nav-item .nav-link:hover::after{
+    width: 50px;
+}
+
+
+
+
+
+
+.about-hero-section button{
+    outline: none;
+    background-color: #FA8305;
+}
+.about-hero-section button a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.Work-section .card{
+    background-color: #1C140F;
+    
+}
+.Work-section .card-body button{
+    background-color: #dc420044;
+  
+}
+.Work-section .card-body a{
+    text-decoration: none;
+    opacity: 100%;
+
+}
+
+
+
+
+
+
+.Our-Team-section .card{
+    background-color: #1C140F;
+}
+
+
+
+
+
+
+.cta-section .background{
+    background-color:#1C140F ;
+}
+
+
+
+
+
+
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .icon-wrapper i{
+    font-size: 30px;
+    margin-top: 180px;
+}
+footer hr{
+    border: 1px solid #fff;    
+}
+
+

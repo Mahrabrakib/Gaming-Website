@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: linear-gradient(to top, black,  rgb(36, 15, 1), black);
+}
+nav{
+   
+    
+}
+nav .nav-logo{
+    margin-left: 150px;
+}
+nav .nav-item{
+   font-size: 16px;
+   margin-left: 88px;
+   color: #FFF;
+}
+nav .nav-item .nav-link{
+    color: #FFF;
+}
+nav .nav-button button{
+    font-size: 14px;
+    color: #FFF;
+    background-color: #FA9021;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 28px;
+    margin-left: 64px;
+    margin-right: 150px;
+}
+nav .nav-button button a{
+    text-decoration: none;
+    color: white;
+}
+nav .nav-button button:hover{
+    background-color: #FFF;
+    color: #111;
+    transition: all ease-in 0.5s;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color:#FA9021;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translatex(-50%);
+    transition: .5s ease;
+}
+nav .nav-item .nav-link:hover::after{
+    width: 50px;
+}
+
+
+
+
+
+
+
+.col-4{
+    display: flex;
+    max-height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+ .statistics-Users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 36px;
+    border-radius: 10px;
+}
+ .icon-wrapper{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #FFECEC;
+    margin-left: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DC7000;
+}
+ .statistics-content h2{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0B132A;
+}
+ .statistics-content p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.Vertical-line{
+    height: 125px;
+    width: 0.5px;
+    background-color: #EEEFF2;
+}
+
+
+
+
+
+
+
+.video-section .video-section-icon-wrapper{
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+    background-color: #2FAB73;
+}
+.video-section .video-section-item p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.Read-more-section1 button{
+    background-color: #DC7000;
+}
+.Read-more-section1 button a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cta-section .background{
+    background-color:#1C140F ;
+}
+
+
+
+
+
+
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .icon-wrapper i{
+    font-size: 30px;
+    margin-top: 180px;
+}
+footer hr{
+    border: 1px solid #fff;    
+}
