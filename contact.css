@@ -43,6 +43,9 @@ nav .nav-button button:hover{
     color: #111;
     transition: all ease-in 0.5s;
 }
+nav .nav-button button a:hover{
+    color: #111;
+}
 nav .nav-item{
     position: relative;
 }
